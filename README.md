@@ -1,9 +1,5 @@
 # Links: https://aepulzaini.github.io/ 
 
-$ Hello Everyone 
-$ Using my diploma knowledge, chatGPT, and Tutorial videos, i managed to publish my portfolio, you guys can visit using the links on top of this files 
-$ The concept that i choose for my portfolio is Minimalist...
-$ So for those who love minimalist themes or concepts, and intreseted in using my porfolio template, i will give the source code here. 
-$ That All from me thanks you ! 
+$ Hello Everyone, With nowdays technologies (ChatGPT) and tutorial videos and my own idea, I publish my own version of personal porfolio, I goes with minimalist and simple concepts, where I only use html and css, so for those who loves my minimalist and simple porfolio concept, and interested to use my template, feel free to take the source code from the file given. 	
 
-Print("Bye Bye - Saiful")
+$ Not much for the introduction, enjoy and bye-bye, your script kiddies developers \0/.
