@@ -1,5 +1,7 @@
-# Links: https://aepulzaini.github.io/ 
+# Visit Now : https://aepulzaini.github.io/ 
 
-$ Hello Everyone, With nowdays technologies (ChatGPT) and tutorial videos and my own idea, I publish my own version of personal porfolio, I goes with minimalist and simple concepts, where I only use html, css and javascript, so for those who loves my minimalist and simple porfolio concept, and interested to use my template, feel free to take the source code from the file given. 	
+**Embark on a transformative journey into the heart of digital creativity with my personal portfolio, a dazzling showcase meticulously crafted to elevate your online presence. Through my portfolio, witness the convergence of innovation and elegance, where every pixel tells a story of passion and expertise.** 	
 
-$ Not much for the introduction, enjoy and bye-bye, your script kiddies developers \0/.
+**Any suggesstion can direct contact trough my email : aepulzaini69@gmail.com**
+
+**Not much for the introduction, enjoy and bye-bye, your junior developers \0/**
