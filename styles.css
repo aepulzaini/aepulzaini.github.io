@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #000; /* Dark sleek background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Background Canvas Styling */
+#bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none; /* Allows hover/clicks to pass through to the page */
+}
+
+/* Replace your .card styling in styles.css */
+.card {
+  position: relative;
+  z-index: 10;
+  background: rgba(15, 23, 42, 0.75); /* Dark translucent background */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(56, 189, 248, 0.25); /* Subtle cyan cyber border */
+  width: 100%;
+  max-width: 360px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.15), 
+              0 20px 40px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 28px 24px;
+  color: #f8fafc;
+}
+
+/* Lighten bio & subheadings for dark background */
+.card .name { color: #f8fafc; font-weight: 700; letter-spacing: 1px; }
+.card .title { color: #38bdf8; font-family: monospace; } /* Terminal code style */
+.card .bio { color: #94a3b8; }
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border: 4px solid #eef2f5;
+}
+
+.name {
+  font-size: 1.4rem;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.bio {
+  font-size: 0.95rem;
+  color: #4a4a4a;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  color: #4ade80;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-family: monospace;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #22c55e;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+
+
+.music-player {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid #e9ecef;
+}
+
+.song-title {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 8px;
+  display: block;
+}
+
+audio {
+  width: 100%;
+  height: 36px;
+}
+/* Social Links Container */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+/* LinkedIn Styling */
+.social-btn.linkedin {
+  background-color: #0a66c2;
+  color: #ffffff;
+}
+
+.social-btn.linkedin:hover {
+  background-color: #084e96;
+  transform: translateY(-2px);
+}
+
+/* Website Styling */
+.social-btn.website {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.social-btn.website:hover {
+  background-color: #1e293b;
+  transform: translateY(-2px);
+}
