@@ -112,3 +112,30 @@ function animate() {
 }
 
 animate();
+
+
+const audio = document.getElementById('audio-player');
+const playBtn = document.getElementById('play-btn');
+const playIcon = document.getElementById('play-icon');
+const playText = document.getElementById('play-text');
+
+playBtn.addEventListener('click', () => {
+  if (audio.paused) {
+    audio.play();
+    playIcon.textContent = '⏸';
+    playText.textContent = 'PAUSE TRACK';
+    playBtn.classList.add('playing');
+  } else {
+    audio.pause();
+    playIcon.textContent = '▶';
+    playText.textContent = 'PLAY TRACK';
+    playBtn.classList.remove('playing');
+  }
+});
+
+// Reset button when song finishes playing
+audio.addEventListener('ended', () => {
+  playIcon.textContent = '▶';
+  playText.textContent = 'PLAY TRACK';
+  playBtn.classList.remove('playing');
+});
