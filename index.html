@@ -43,12 +43,19 @@
       <span> Open For Opportunities</span>
     </div>
 
-    <!-- Music Player -->
-    <div class="music-player">
-      <span class="song-title">🎵 A bit of music won't hurt is it?</span>
-      <audio id="audio-player" src="https://raw.githubusercontent.com/aepulzaini/aepulzaini.github.io/refs/heads/main/assets/music/tanjironouta.mp3" controls type="audio/mpeg"></audio>
-    </div>
-  </div>
+   <!-- Music Player -->
+<div class="music-player">
+  <span class="song-title">🎵 A bit of music won't hurt, right?</span>
+  
+  <!-- Hidden Audio Element -->
+  <audio id="audio-player" src="https://raw.githubusercontent.com/aepulzaini/aepulzaini.github.io/refs/heads/main/assets/music/tanjironouta.mp3" preload="auto"></audio>
+
+  <!-- Custom Play/Pause Button -->
+  <button id="play-btn" class="music-btn">
+    <span id="play-icon">▶</span>
+    <span id="play-text">PLAY TRACK</span>
+  </button>
+</div>
   <!-- Link External JavaScript -->
   <script src="assets/js/scripts.js"></script>
 </body>
